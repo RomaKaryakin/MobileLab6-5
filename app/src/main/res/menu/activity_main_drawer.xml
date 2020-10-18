@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/movietickets"
+            android:title="Продажа билетов" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/driver"
+            android:title="Список администраторов" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/frontofbus"
+            android:title="Автобусы" />
+        <item
+            android:id="@+id/statistic"
+            android:icon="@drawable/statistics"
+            android:title="Статистика" />
+        <item
+            android:id="@+id/passangers"
+            android:icon="@drawable/passenger"
+            android:title="Пасажиры" />
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/schedule"
+            android:title="Расписание" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/history"
+            android:title="История" />
+        <item
+            android:id="@+id/edit"
+            android:icon="@drawable/customize"
+            android:title="Настройки" />
+    </group>
+</menu>
